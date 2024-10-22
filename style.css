@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #acc6fd;
+    background-color: #ff9d00;
     color: white;
     padding: 20px;
     text-align: center;
@@ -23,7 +23,7 @@ nav {
 }
 
 nav a {
-    color: #fdd2d2;
+    color: #ffffff;
     margin: 0 15px;
     text-decoration: none;
     font-size: 1.2em;
@@ -45,7 +45,7 @@ nav a {
 
 .intro-text h2 {
     font-size: 2em;
-    color: #00bf63;
+    color: #ff9d00;
 }
 
 .intro-text p {
@@ -67,12 +67,12 @@ nav a {
 .services {
     padding: 50px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #ff9d00;
 }
 
 .services h2 {
     font-size: 2em;
-    color: #00bf63;
+    color: #ff9d00;
     margin-bottom: 20px;
 }
 
@@ -95,13 +95,13 @@ nav a {
 
 .service h3 {
     font-size: 1.5em;
-    color: #00bf63;
+    color: #ffffff;
     margin: 10px 0;
 }
 
 .service p {
     font-size: 1.1em;
-    color: #555;
+    color: #000000;
 }
 
 @media (max-width: 768px) {
@@ -120,7 +120,7 @@ main {
 }
 
 footer {
-    background-color: #058C42;
+    background-color: #ff9d00;
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
@@ -151,14 +151,14 @@ form input, form select, form button {
 }
 
 form button {
-    background: #058C42;
+    background: #ff9d00;
     color: #ffffff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background: #058C42;
+    background: #008e40;
 }
 
 /* esqueci a senha */
