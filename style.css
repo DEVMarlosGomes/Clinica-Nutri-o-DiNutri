@@ -200,3 +200,21 @@ form button:hover {
 .back-button:hover {
     background-color: #058C42;
 }
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Distância do fundo */
+    right: 20px; /* Distância da direita */
+    background-color: #0dcf1a; /* Cor do WhatsApp */
+    border-radius: 50%; /* Para deixar o botão redondo */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000; /* Para garantir que fique acima de outros elementos */
+}
+
+.whatsapp-button img {
+    width: 50px; /* Tamanho do ícone */
+    height: 50px; /* Tamanho do ícone */
+}
+
+
