@@ -1,9 +1,8 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: #ffffff;
 }
 
 header {
@@ -63,6 +62,7 @@ nav a {
     border-radius: 10px;
 }
 
+
 /* Seção de serviços */
 .services {
     padding: 50px;
@@ -120,10 +120,12 @@ main {
 }
 
 footer {
-    background-color: #ff9d00;
-    color: #ffffff;
     text-align: center;
+    margin-top: 20px;
     padding: 10px 0;
+    background-color: #ff9d00;
+    color: white;
+    font-weight: bold; /* Negrito no rodapé */
 }
 
 section {
@@ -139,8 +141,11 @@ form {
     flex-direction: column;
 }
 
-form label {
-    margin: 10px 0 5px;
+label {
+    margin-bottom: 5px;
+    font-weight: bold; /* Negrito nos rótulos */
+    font-size: 16px; /* Tamanho da fonte aumentado */
+    color: #000000; /* Cor dos rótulos */
 }
 
 form input, form select, form button {

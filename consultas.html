@@ -9,13 +9,11 @@
 </head>
 <body>
     <header>
-        
         <div class="logo-container">
             <a href="home pós login.html"> 
                 <img src="logo dinutri.png" width="150" height="150" alt="DiNutri Logo" class="logo">
             </a> 
         </div>
-
     </header>
 
     <main>
@@ -25,26 +23,40 @@
                 <label for="nomeUsuario">Nome:</label>
                 <input type="text" id="nomeUsuario" required>
 
-                <label for="dataCancel">Data da Consulta:</label>
-                <input type="date" id="dataCancel" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" placeholder="(xx) xxxxx-xxxx" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+                <label for="dataConsulta">Data da Consulta:</label>
+                <input type="date" id="dataConsulta" required>
+
+                <label for="horaConsulta">Hora da Consulta:</label>
+                <input type="time" id="horaConsulta" required>
 
                 <label for="medico">Médico:</label>
-            <select id="medico" name="medico" required>
-                <option value="">Selecione um médico</option>
-                <option value="medico1">Dra. Fernanda Lima</option>
-                <option value="medico2">Dr. Lucas Almeida</option>
-                <option value="medico3">Dra. Mariana Costa</option>
-            </select>
+                <select id="medico" name="medico" required>
+                    <option value="">Selecione um médico</option>
+                    <option value="medico1">Dr. Marlos Gomes</option>
+                    <option value="medico2">Dr. Romulo Famiglietti</option>
+                    <option value="medico3">Dr. Matheus Rodrigues</option>
+                    <option value="medico3">Dr. Breno Zein</option>
+                    <option value="medico3">Dr. Matheus Profeta</option>
+                </select>
 
-            <label for="especialidade">Especialidade:</label>
-            <select id="especialidade" name="especialidade" required>
-                <option value="">Selecione uma especialidade</option>
-                <option value="nutricao">Nutrição Clínica</option>
-                <option value="cardiologia">Nutrição Esportiva</option>
-                <option value="pediatria">Nutrição Materno Infantil</option>
-            </select>
+                <label for="especialidade">Especialidade:</label>
+                <select id="especialidade" name="especialidade" required>
+                    <option value="">Selecione uma especialidade</option>
+                    <option value="nutricao">Nutrição Clínica</option>
+                    <option value="cardiologia">Nutrição Esportiva</option>
+                    <option value="pediatria">Nutrição Infantil</option>
+                </select>
 
-            <button type="submit">Agendar Consulta</button>
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" rows="4" placeholder="Observações adicionais..."></textarea>
+
+                <button type="submit">Agendar Consulta</button>
             </form>
         </section>
 
@@ -57,12 +69,14 @@
                 <label for="dataCancel">Data da Consulta:</label>
                 <input type="date" id="dataCancel" required>
 
-                <label for="medico">Médico:</label>
-                <select id="medico" name="medico" required>
+                <label for="medicoCancel">Médico:</label>
+                <select id="medicoCancel" name="medico" required>
                     <option value="">Selecione um médico</option>
-                    <option value="medico1">Dra. Fernanda Lima</option>
-                    <option value="medico2">Dr. Lucas Almeida</option>
-                    <option value="medico3">Dra. Mariana Costa</option>
+                    <option value="medico1">Dr. Marlos Gomes</option>
+                    <option value="medico2">Dr. Romulo Famiglietti</option>
+                    <option value="medico3">Dr. Matheus Rodrigues</option>
+                    <option value="medico3">Dr. Breno Zein</option>
+                    <option value="medico3">Dr. Matheus Profeta</option>
                 </select>    
 
                 <button type="submit">Cancelar</button>
