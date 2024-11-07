@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #ff9d00;
+    background-color: #32745C;
     color: white;
     padding: 20px;
     text-align: center;
@@ -44,7 +44,7 @@ nav a {
 
 .intro-text h2 {
     font-size: 2em;
-    color: #ff9d00;
+    color: #B29361;
 }
 
 .intro-text p {
@@ -67,12 +67,12 @@ nav a {
 .services {
     padding: 50px;
     text-align: center;
-    background-color: #ff9d00;
+    background-color: #B29361;
 }
 
 .services h2 {
     font-size: 2em;
-    color: #ff9d00;
+    color: #EDE4D6;
     margin-bottom: 20px;
 }
 
@@ -123,7 +123,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
-    background-color: #ff9d00;
+    background-color: #32745C;
     color: white;
     font-weight: bold; /* Negrito no rodapé */
 }
@@ -138,32 +138,33 @@ section {
 
 form {
     display: flex;
+    padding: 5px;
     flex-direction: column;
 }
 
 label {
     margin-bottom: 5px;
     font-weight: bold; /* Negrito nos rótulos */
-    font-size: 16px; /* Tamanho da fonte aumentado */
+    font-size: 17px; /* Tamanho da fonte aumentado */
     color: #000000; /* Cor dos rótulos */
 }
 
-form input, form select, form button {
+form input, form select, form button { /*estilização formularios consulta*/
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 3px solid #B29361;
+    border-radius: 50px;
 }
 
 form button {
-    background: #ff9d00;
+    background: #B29361;
     color: #ffffff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background: #008e40;
+    background: #32745C;
 }
 
 /* esqueci a senha */
