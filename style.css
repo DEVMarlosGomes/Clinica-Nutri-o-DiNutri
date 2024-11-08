@@ -122,11 +122,12 @@ main {
 footer {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px 0;
+    margin-bottom: 0px;
+    padding: 13px;
     background-color: #32745C;
     color: white;
     font-weight: bold; /* Negrito no rodapé */
+    padding-inline-end: 50px;
 }
 
 section {
@@ -245,11 +246,11 @@ form button:hover {
 .pers-cadastro{
 
     justify-self: center;
-    padding-bottom: 15px;
+    padding-bottom: 200px;
     width: 500px;
     height: 500px;
 
-}
+}*/
 
 .container{
 
